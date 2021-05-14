@@ -12,6 +12,7 @@ public class SubscriberController {
 
     @GetMapping(value = "/")
     public String index(Subscriber subscriber) {
+
         return "subscriber/index";
     }
 }
